@@ -139,6 +139,13 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  hit?
+  if card_total < 21
+    display_card_total 
+  else
+    end_game
+    end
 end
     
