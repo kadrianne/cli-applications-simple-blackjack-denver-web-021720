@@ -116,6 +116,10 @@ def initial_round
   return sum
 end
 
+def invalid_command
+  puts "Please enter a valid command"
+end
+
 def hit?(card_total)
   prompt_user
   input = get_user_input
@@ -127,10 +131,6 @@ def hit?(card_total)
     invalid_command
     prompt_user
   end
-end
-
-def invalid_command
-  puts "Please enter a valid command"
 end
 
 #####################################################
