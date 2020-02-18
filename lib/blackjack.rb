@@ -145,6 +145,7 @@ def runner
   while card_total <= 21 do
     display_card_total 
     card_total += hit?(card_total)
+    binding.pry
   end
   end_game(card_total)
 end
