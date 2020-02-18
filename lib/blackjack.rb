@@ -1,3 +1,4 @@
+require 'pry'
 # #### The `welcome` Method
 
 # This method uses `puts` to output the message: "Welcome to the Blackjack Table".
