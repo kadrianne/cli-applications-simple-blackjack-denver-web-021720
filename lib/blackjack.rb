@@ -143,7 +143,7 @@ def runner
   welcome
   sum = initial_round
   card_total = hit?(sum)
-  while card_total <= 21 do
+  hit?(card_total) until card_total <= 21 do
     display_card_total
     card_total = hit?(card_total)
   end
